@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Mabel Blanco</h1>
+
+            <figure>
+                <img src="" alt="Foto de Mabel">
+                <figcaption>Contact</figcaption>
+            </figure>
+        </header>
+
+    
+        <h2>Mis proyectos</h2>
+        <div>slide</div>
+
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Habilidad 1</li>
+            <li>Habilidad 2</li>
+            <li>Habilidad 3</li>
+            <li>Habilidad 4</li>
+            <li>Habilidad 5</li>
+            <li>Habilidad 6</li>
+            <li>Habilidad 7</li>
+            <li>Habilidad 8</li>
+        </ul>
+    </main>
+    <h3>Formulario de contacto</h3>
+    <form id="contact" action="/register" novalidate method="post">
+        <div>
+            <label for="name">Nombre</label>
+            <input required type="text" id="name" name="name" placeholder="Nombre">
+        </div>
+        <div>    
+            <label for="lastname">Apellidos</label>
+            <input required type="text" id="lastname" name="lastname" placeholder="Apellidos">
+        </div>
+        <div>
+            <label for="email">Correo electrónico</label>
+            <input required type="email" id="email" name="email" placeholder="e-mail">
+        </div>
+        <div>
+            <label for="phone">Número de teléfono</label>
+            <input required type="text" id="phone" name="phone" placeholder="Teléfono">
+        </div>
+
+        <fieldset>
+            <legend>¿Cómo me conociste?</legend>
+            <label for="university">Universidad</label>
+            <input type="radio" name="meet" id="university" value="university">
+            <label for="keepcoding">Keepcoding kick-off</label>
+            <input type="radio" name="meet" id="keepcoding" value="keepcoding">
+            <label for="school">Colegio</label>
+            <input type="radio" name="meet" id="school" value="school">
+            <label for="github">En Git-hub</label>
+            <input type="radio" name="meet" id="github" value="github">
+        </fieldset>
+
+        <div>
+            <label for="tagGithub">Nombre de usuario de Git-hub</label>
+            <input type="text" id="tagGithub" name="tagGithub" value="@" pattern="">
+        </div>
+
+        <textarea name="moreInfo" id="moreInfo"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <footer>
+        <a href="http://">Linkedin</a>
+        <a href="http://">Git-hub</a>
+        <a href="http://">Instagram</a>
+    </footer>
+    
+</body>
+</html>
