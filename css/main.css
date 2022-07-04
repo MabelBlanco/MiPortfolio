@@ -35,6 +35,29 @@ nav{
     margin-top: 10px;
 }
 
+.photoresp {
+    width: 100%;
+}
+
+.imgbutton{
+text-decoration:none;
+color: var(--secondFontColor);
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color: var(--mainPrimaryColor);
+border-color: #d8d8d8;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+width: 40%;
+text-align: center;
+position: absolute;
+top: 40%;
+right: 30%;
+}
+
 @media screen and (min-width: 768px){
 
     .menuPrincipal{
