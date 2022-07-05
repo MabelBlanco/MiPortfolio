@@ -15,6 +15,15 @@ h1{
     margin-bottom: 0px;
 }
 
+h2 {
+    font-size: var(--fontTitlesSize);
+    padding: 10px;
+    text-align: center;
+    background-color: var(--mainPrimaryColor);
+    color: var(--secondFontColor);
+    margin-top: 10px;
+}
+
 /*Barra de navegación*/
 
 nav{
@@ -82,15 +91,6 @@ text-align: center;
 
 /* Slide*/
 
-.workExperience {
-    font-size: var(--fontTitlesSize);
-    padding: 10px;
-    text-align: center;
-    background-color: var(--mainPrimaryColor);
-    color: var(--secondFontColor);
-    margin-top: 10px;
-}
-
 .slideLinks {
     display: flex;
     flex-direction: row;
@@ -108,10 +108,12 @@ text-align: center;
 
 .slideImages > div > img {
     width: 100%;
+    max-height: 100%;
 }
 
 .slideImages > div > video {
     width: 100%;
+    max-height: 30vh;
 }
 
 .slideImages > div {
@@ -131,6 +133,10 @@ text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+/*Habilidades (Animacion)*/
+
+
 
 @media screen and (min-width: 768px){
 
