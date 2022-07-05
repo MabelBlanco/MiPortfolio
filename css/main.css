@@ -1,7 +1,8 @@
 :root {
 --mainPrimaryColor: rgb(241, 130, 26);
 --secondFontColor: #fff;
---fontPrimarySize: 16px
+--fontPrimarySize: 1rem;
+--fontTitlesSize: 2rem;
 
 }
 
@@ -14,12 +15,14 @@ h1{
     margin-bottom: 0px;
 }
 
+/*Barra de navegación*/
+
 nav{
     background-color: var(--mainPrimaryColor);
     color: var(--secondFontColor);
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -34,6 +37,8 @@ nav{
     margin-right: 10px;
     margin-top: 10px;
 }
+
+/* Foto Responsive con botón*/
 
 .header {
     width: 100%;
@@ -75,7 +80,63 @@ width: 40%;
 text-align: center;
 }
 
+/* Slide*/
+
+.workExperience {
+    font-size: var(--fontTitlesSize);
+    padding: 10px;
+    text-align: center;
+    background-color: var(--mainPrimaryColor);
+    color: var(--secondFontColor);
+    margin-top: 10px;
+}
+
+.slideLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slideNav {
+    background-color: var(--mainPrimaryColor);
+    width: 1em;
+    height: 1em;
+    display: block;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+.slideImages > div > img {
+    width: 100%;
+}
+
+.slideImages > div > video {
+    width: 100%;
+}
+
+.slideImages > div {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.slideImages {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 @media screen and (min-width: 768px){
+
+    nav {
+        justify-content: space-between;
+    }
 
     .menuPrincipal{
         display: block;
