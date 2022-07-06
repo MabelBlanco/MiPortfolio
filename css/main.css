@@ -121,7 +121,7 @@ text-align: center;
     height: 30vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .slideImages {
@@ -136,6 +136,161 @@ text-align: center;
 
 /*Habilidades (Animacion)*/
 
+.skills > ul{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills > ul > li {
+    margin: 10px;
+}
+
+.skills > ul > li > div {
+    width: 200px;
+    height: 30px;
+}
+
+.skillcontainer {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skillback20 {
+    background-color: var(--mainPrimaryColor);
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;  
+}
+
+.skillback20 {
+    animation: twenty 5s linear; 
+}
+
+@keyframes twenty {
+    0% {
+        width: 0%;
+    }
+    20%{
+        width: 20%;
+    }
+}
+
+.skillback40 {
+    background-color: var(--mainPrimaryColor);
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+}
+
+.skillback40 {
+    animation: forty 5s linear; 
+}
+
+@keyframes forty {
+    0% {
+        width: 0%;
+    }
+    40%{
+        width: 40%;
+    }
+}
+
+.skillback60 {
+    background-color: var(--mainPrimaryColor);
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+}
+
+.skillback60 {
+    animation: sixty 5s linear; 
+}
+
+@keyframes sixty {
+    0% {
+        width: 0%;
+    }
+    60%{
+        width: 60%;
+    }
+}
+
+.skillback80 {
+    background-color: var(--mainPrimaryColor);
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+}
+
+.skillback80 {
+    animation: eighty 5s linear; 
+}
+
+@keyframes eighty {
+    0% {
+        width: 0%;
+    }
+    80%{
+        width: 80%;
+    }
+}
+
+.skillback100 {
+    background-color: var(--mainPrimaryColor);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+}
+
+.skillback100 {
+    animation: hundred 5s linear; 
+}
+
+@keyframes hundred {
+    0% {
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.skillborder {
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
 
 
 @media screen and (min-width: 768px){
