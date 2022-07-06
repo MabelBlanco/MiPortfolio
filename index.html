@@ -125,47 +125,60 @@
             </ul>
         </section>
     </main>
-    <h3 id="Contact">Formulario de contacto</h3>
-    <form id="contact" action="/register" novalidate method="post">
-        <div>
-            <label for="name">Nombre</label>
-            <input required type="text" id="name" name="name" placeholder="Nombre">
-        </div>
-        <div>    
-            <label for="lastname">Apellidos</label>
-            <input required type="text" id="lastname" name="lastname" placeholder="Apellidos">
-        </div>
-        <div>
-            <label for="email">Correo electrónico</label>
-            <input required type="email" id="email" name="email" placeholder="e-mail">
-        </div>
-        <div>
-            <label for="phone">Número de teléfono</label>
-            <input required type="text" id="phone" name="phone" placeholder="Teléfono">
-        </div>
+    
+    <section id="Contact">
+        <h2>¡Contacta conmigo!</h2>
+        <form class="formcontact" action="/register" method="post">
+            <section class="firstcontact">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input required type="text" id="name" name="name" placeholder="Nombre">
+                </div>
+                <div>    
+                    <label for="lastname">Apellidos</label>
+                    <input required type="text" id="lastname" name="lastname" placeholder="Apellidos">
+                </div>
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input required type="email" id="email" name="email" placeholder="e-mail">
+                </div>
+                <div>
+                    <label for="phone">Número de teléfono</label>
+                    <input required type="tel" id="phone" name="phone" placeholder="Teléfono">
+                </div>
+            </section>
 
-        <fieldset>
-            <legend>¿Cómo me conociste?</legend>
-            <label for="university">Universidad</label>
-            <input type="radio" name="meet" id="university" value="university">
-            <label for="keepcoding">Keepcoding kick-off</label>
-            <input type="radio" name="meet" id="keepcoding" value="keepcoding">
-            <label for="school">Colegio</label>
-            <input type="radio" name="meet" id="school" value="school">
-            <label for="github">En Git-hub</label>
-            <input type="radio" name="meet" id="github" value="github">
-        </fieldset>
+            <fieldset class="secondcontact">
+                <legend>¿Cómo me conociste?</legend>
+                <div>
+                    <label for="university">Universidad</label>
+                    <input required type="radio" name="meet" id="university" value="university">
+                </div>
+                <div>
+                    <label for="keepcoding">Keepcoding kick-off</label>
+                    <input required type="radio" name="meet" id="keepcoding" value="keepcoding">
+                </div>
+                <div>
+                    <label for="school">Colegio</label>
+                    <input required type="radio" name="meet" id="school" value="school">
+                </div>
+                <div>
+                    <label for="github">En Git-hub</label>
+                    <input required type="radio" name="meet" id="github" value="github">
+                </div>
+            </fieldset>
 
-        <div>
-            <label for="tagGithub">Nombre de usuario de Git-hub</label>
-            <input type="text" id="tagGithub" name="tagGithub" value="@" pattern="">
-        </div>
+            <div>
+                <label for="tagGithub">Nombre de usuario de Git-hub</label>
+                <input type="text" id="tagGithub" name="tagGithub" value="@" pattern="">
+            </div>
 
-        <textarea name="moreInfo" id="moreInfo"></textarea>
+            <textarea name="moreInfo" id="moreInfo"></textarea>
 
-        <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button>
 
-    </form>
+        </form>
+    </section>
 
     <footer>
         <a href="http://">Linkedin</a>
