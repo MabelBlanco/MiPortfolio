@@ -1,0 +1,49 @@
+:root {
+    --mainPrimaryColor: rgb(241, 130, 26);
+    --secondFontColor: #fff;
+    --fontPrimarySize: 1rem;
+    --fontTitlesSize: 2rem;
+    
+    }
+
+    /* Foto Responsive con botón*/
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.photoresp {
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.contact {
+    padding-bottom: 40px;
+}
+
+.imgbutton{
+text-decoration:none;
+color: var(--secondFontColor);
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color: var(--mainPrimaryColor);
+border-color: #d8d8d8;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+width: 40%;
+text-align: center;
+}
