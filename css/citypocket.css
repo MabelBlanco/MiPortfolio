@@ -1,0 +1,11 @@
+:root {
+    --mainPrimaryColor: rgb(241, 130, 26);
+    --secondFontColor: #fff;
+    --fontPrimarySize: 1rem;
+    --fontTitlesSize: 2rem;
+    
+    }
+
+.videocity > iframe {
+    width: 100%;
+}

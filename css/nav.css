@@ -28,6 +28,17 @@ nav{
     padding: 20px;
 }
 
+/*Proyectos.html*/
+
+.back  img {
+    width: 30px;
+}
+
+.back {
+    position: absolute;
+    left: 20px;
+}
+
 @media screen and (min-width: 768px){
 
     nav {
@@ -48,5 +59,9 @@ nav{
         background-color: var(--secondFontColor);
         color: var(--mainPrimaryColor);
         transition: all 0.3s linear;
+    }
+
+    .back {
+        display: none;
     }
 }
