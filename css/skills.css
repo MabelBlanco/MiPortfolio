@@ -163,3 +163,12 @@
     left: 0;
     padding: 5px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .skills > ul {
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}

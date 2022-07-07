@@ -50,3 +50,23 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 768px) {
+
+    .slideImages {
+        width: 50%;
+        height: 50vh;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slideImages > div {
+        height: 100%;
+    }
+
+    .slideImages > div > video {
+        height: 100%;
+        max-height: max-content;
+    }
+}

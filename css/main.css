@@ -39,3 +39,13 @@ h2 {
     width: 40%;
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+
+    .buttonback:hover {
+        background-color: var(--secondFontColor);
+        color: var(--mainPrimaryColor);
+        border-color: var(--mainPrimaryColor);
+        transition: all 0.3s linear;
+    }
+}
