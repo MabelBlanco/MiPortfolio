@@ -1,0 +1,35 @@
+:root {
+    --mainPrimaryColor: rgb(241, 130, 26);
+    --secondFontColor: #fff;
+    --fontPrimarySize: 1rem;
+    --fontTitlesSize: 2rem;
+    
+    }
+
+/*Footer*/
+
+footer {
+    background-color: var(--mainPrimaryColor);
+    color: var(--secondFontColor);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer > a {
+    text-decoration:none;
+    color: var(--secondFontColor);
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: var(--mainPrimaryColor);
+    
+}
+
+footer > a > img {
+    width: 20px;
+    height: 20px;
+}

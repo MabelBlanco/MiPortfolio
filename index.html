@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
@@ -21,9 +23,9 @@
         <nav>
             <h1>Mabel Blanco</h1>
             <div class="menuPrincipal">
-                <a href="" class="linkNav">Proyectos</a>
-                <a href="" class="linkNav">Habilidades</a>
-                <a href="" class="linkNav">Contacto</a>
+                <a href="#experience" class="linkNav">Experiencia</a>
+                <a href="#skills2" class="linkNav">Habilidades</a>
+                <a href="#Contact" class="linkNav">Contacto</a>
             </div>
         </nav>
         <header class="header">
@@ -36,13 +38,13 @@
             </picture>
             <div class="container">
                 <div class="contact">
-                    <a href="#Contact" class="imgbutton">Contáctame</a>
+                    <a href="#Contact" class="buttonback">Contáctame</a>
                 </div>
             </div>
         </header>
 
         <section class="slide">
-        <h2>Mi experiencia:</h2>
+        <h2 id="experience">Mi experiencia:</h2>
             <div class="slideImages">
                 <div id="vroda">
                     <img src="img/Logo-VRODA-Impresiones.jpg" alt="VRODA impresiones">
@@ -65,8 +67,8 @@
             </div>
         </section>
 
-        <h2>Habilidades</h2>
         <section class="skills">
+            <h2 id="skills2">Habilidades</h2>
             <ul>
                 <li><div class="skilltitle">HTML</div>
                     <div class="skillcontainer">
@@ -168,22 +170,36 @@
                 </div>
             </fieldset>
 
-            <div>
+            <div class="gitcontact">
                 <label for="tagGithub">Nombre de usuario de Git-hub</label>
-                <input type="text" id="tagGithub" name="tagGithub" value="@" pattern="">
+                <input type="text" id="tagGithub" name="tagGithub" pattern="^@[^\s]+" placeholder="@tunombre">
             </div>
 
-            <textarea name="moreInfo" id="moreInfo"></textarea>
+            <div class="textbox">
+                <label for="moreInfo">Cuéntame algo más 😉</label>
+                <textarea required name="moreInfo" id="moreInfo"></textarea>
+            </div>
 
-            <button type="submit">Enviar</button>
+            <div class="contactbutton">
+                <button class="buttonback" type="submit">Enviar</button>
+            </div>
 
         </form>
     </section>
 
     <footer>
-        <a href="http://">Linkedin</a>
-        <a href="http://">Git-hub</a>
-        <a href="http://">Instagram</a>
+        <a href="https://github.com/MabelBlanco" target="_blank" rel="noopener noreferrer">
+            <img src="icons/github.png" alt="icono de github">
+        </a>
+        <a href="https://www.youtube.com/channel/UCcfWTfA8fNeOnkCFrfimMjQ" target="_blank" rel="noopener noreferrer">
+            <img src="icons/youtube.png" alt="icono de youtube">
+        </a>
+        <a href="https://www.instagram.com/vrodaimpresiones/?hl=es" target="_blank" rel="noopener noreferrer">
+            <img src="icons/instagram.png" alt="icono de instagram">
+        </a>
+        <a href="https://www.facebook.com/pages/category/Arts---entertainment/Mr-Find-107453817307685/" target="_blank" rel="noopener noreferrer">
+            <img src="icons/facebook.png" alt="icono de facebook">
+        </a>
     </footer>
     
 </body>
