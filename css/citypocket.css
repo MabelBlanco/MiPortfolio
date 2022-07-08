@@ -6,6 +6,45 @@
     
     }
 
+    
 .videocity > iframe {
     width: 100%;
+}
+
+.pagescontainer {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pagescontainer > article {
+    width: 100%;
+}
+
+.pagescontainer img {
+    width: 100%;
+}
+
+main {
+    margin-bottom: 120px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .pagescontainer {
+        margin-right: 10%;
+        margin-left: 10%;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5%;
+    }
+
+    .cityfooter {
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+    }
+
 }

@@ -28,7 +28,7 @@ nav{
     padding: 20px;
 }
 
-/*Proyectos.html*/
+/*Citypocket.html*/
 
 .back  img {
     width: 30px;
@@ -39,7 +39,11 @@ nav{
     left: 20px;
 }
 
-@media screen and (min-width: 768px){
+.proyect1 {
+    display: none;
+}
+
+@media screen and (min-width: 840px){
 
     nav {
         justify-content: space-between;
@@ -61,7 +65,13 @@ nav{
         transition: all 0.3s linear;
     }
 
+    /*CityPocket*/
+
     .back {
         display: none;
+    }
+
+    .proyect1 {
+        display: inline;
     }
 }
