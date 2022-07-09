@@ -43,29 +43,8 @@ nav{
     display: none;
 }
 
-/*Menú hamburguesa*/
 
-.menuhamburguer > img {
-    width: 35px;
-}
-
-.menuhamburguer {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-}
-
-.checkhamburguer {
-    display: none;
-}
-
-.checkhamburguer:checked ~ .menuPrincipal {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-} 
-
-@media screen and (min-width: 840px){
+@media screen and (min-width: 902px){
 
     nav {
         justify-content: space-between;
