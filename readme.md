@@ -21,7 +21,7 @@ El resultado final es el siguiente:
 
 <div>
   <img src="img/index-desktop-version.png" alt="Página de Inicio" width="400">
-  <img src="img/pag-desktop-version.png" alt="Página extra" width="600">
+  <img src="img/pag-desktop-version.png" alt="Página extra" width="400">
 </div>
 
 ## ORGANIZACIÓN ##
@@ -45,12 +45,12 @@ Para este proyecto se solicitaban ciertos requisitos básicos:
 - Que el header llevase una imagen responsive, optimizada para distintas resoluciones.
 - Crear un carrusel mediante el uso de flexbox.
 <img src="img/carrusel.png" alt="Carrusel" width="400">
+
 - Crear unas barras de progreso animadas con CSS.
 - Colocar un formulario de contacto con: campos requeridos, radio-buttons, longitud máxima y pattern. Darle a cada input su tipo correcto.
 - Colocar un footer con link a nuestras RRSS.
-- Crear una página extra en cuyo interior utilizásemos el display:Grid para colocar los ítems.
-y
-- MOVILE FIRST. El diseño debe ser responsive, de modo que se deben utilizar media queries teniendo que tener muy en cuenta este último punto.
+- Crear una página extra en cuyo interior utilizásemos el *display:Grid* para colocar los ítems.
+- **MOVILE FIRST.** El diseño debe ser responsive, de modo que se deben utilizar media queries teniendo que tener muy en cuenta este último punto.
 
 
 ## PUNTOS AÑADIDOS ##
@@ -61,8 +61,13 @@ y
 - Incluir un tipo de fuente diferente al estándar.
 - Botón (link) con posición absoluta dentro de imagen.
 <img src="img/boton.jpg" alt="Foto con botón de contacto" width="400">
+
 - Footer en página extra posicionado siempre abajo de la pantalla (fixed).
 - Menú hamburguesa en la opción movile, ya que el menú completo haría que el nav quedase demasiado colapsado.
+
+Este sería el menú cerrado:
 <img src="img/menu-cerrado.jpg" alt="Menú hamburguesa cerrado" width="400">
+
+Este sería el menú abierto:
 <img src="img/menu-abierto.jpg" alt="Menú hamburguesa abierto" width="400">
 
