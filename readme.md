@@ -1,6 +1,10 @@
 # MI PORTFOLIO #
 
-Este proyecto es un portfolio sobre mí. Está hecho únicamente utilizando HTML y CSS.
+Este proyecto es un portfolio sobre mí. **Está hecho únicamente utilizando HTML y CSS.**
+
+Para la sección "Experiencia" he utilizado las diferentes empresas que he montado a lo largo de mi vida laboral. Aunque no son mi única experiencia de trabajo, si son las que más me representan.
+
+Para la página extra he utilizado una de las empresas anteriormente mencionadas: *CityPocket.* Este fue de todos el proyecto en el que más implicación emocional he tenido, ya que conllevaba también una lucha social: la ayuda al pequeño comercio. Así que le he querido rendir este pequeño homenaje.
 
 ## RESULTADO ##
 
@@ -35,11 +39,12 @@ Tanto las páginas web como el readme.md que estáis leyendo, se encuentran fuer
 
 Para este proyecto se solicitaban ciertos requisitos básicos:
 
-- Utilizar solo código HTML y CSS, sin librerías ni frameworks y SIN JAVASCRIPT.
+- Utilizar solo código HTML y CSS, sin librerías ni frameworks y **sin javascript.**
 - Que se visualizase correctamente en cualquier navegador.
 - Incluir una barra de navegación con links a cada elemento de la página con un hover suavizado mediante transiciones.
 - Que el header llevase una imagen responsive, optimizada para distintas resoluciones.
 - Crear un carrusel mediante el uso de flexbox.
+<img src="img/carrusel.png" alt="Carrusel" width="400">
 - Crear unas barras de progreso animadas con CSS.
 - Colocar un formulario de contacto con: campos requeridos, radio-buttons, longitud máxima y pattern. Darle a cada input su tipo correcto.
 - Colocar un footer con link a nuestras RRSS.
@@ -50,10 +55,14 @@ y
 
 ## PUNTOS AÑADIDOS ##
 
-No se solicitaban expresamente, pero dado que lo hemos visto en clase lo he querido poner en práctica:
+**No se solicitaban expresamente**, pero dado que lo hemos visto en clase lo he querido poner en práctica:
 
-- Uso de og-tags
+- Uso de og-tags.
 - Incluir un tipo de fuente diferente al estándar.
 - Botón (link) con posición absoluta dentro de imagen.
-- Footer en página extra posicionado siempre abajo de la pantalla (fixed)
+<img src="img/boton.jpg" alt="Foto con botón de contacto" width="400">
+- Footer en página extra posicionado siempre abajo de la pantalla (fixed).
+- Menú hamburguesa en la opción movile, ya que el menú completo haría que el nav quedase demasiado colapsado.
+<img src="img/menu-cerrado.jpg" alt="Menú hamburguesa cerrado" width="400">
+<img src="img/menu-abierto.jpg" alt="Menú hamburguesa abierto" width="400">
 
